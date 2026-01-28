@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>V.Archana | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+  <!-- Sticky Header -->
+  <header class="header">
+    <div class="logo">V.Archana</div>
+    <nav class="nav">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+      <button id="theme-toggle" aria-label="Toggle dark/light mode">🌙</button>
+    </nav>
+  </header>
+
+  <!-- Hero / Personal Info -->
+  <section id="about" class="hero">
+    <div class="hero-text">
+      <h1 class="reveal">Hi, I'm <span>V.Archana</span></h1>
+      <h2 class="reveal delay">Aspiring Software & Data Professional | Student</h2>
+      <p class="reveal delay2">I enjoy building interactive web apps and exploring data-driven solutions with clean design.</p>
+
+      <ul class="facts">
+        <li>🌍 Languages: English, Telugu</li>
+        <li>💻 Current Role: Student</li>
+      </ul>
+
+      <a href="https://drive.google.com/file/d/1WloY4NwLKcb5-hTCEm7tHZ_EHiHX6ICw/view?usp=drive_link" target="_blank" class="btn">View Resume</a>
+    </div>
+
+    <div class="hero-img">
+      <!-- Girl Avatar -->
+      <img src="images/avatar.jpg" alt="Shaik Arshiya Avatar">
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <h3>Programming</h3>
+        <p>Python, Java, SQL, HTML, CSS</p>
+      </div>
+      <div class="skill-card">
+        <h3>Soft Skills</h3>
+        <p>Communication, Time Management, Critical Thinking</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Image Gallery -->
+  <section id="gallery" class="section">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="https://picsum.photos/300/200?random=1" alt="Coding" tabindex="0">
+      <img src="https://picsum.photos/300/200?random=2" alt="Data Analysis" tabindex="0">
+      <img src="https://picsum.photos/300/200?random=3" alt="Learning" tabindex="0">
+      <img src="https://picsum.photos/300/200?random=4" alt="Education" tabindex="0">
+      <img src="https://picsum.photos/300/200?random=5" alt="AI" tabindex="0">
+      <img src="https://picsum.photos/300/200?random=6" alt="Online Learning" tabindex="0">
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-hidden="true">
+    <button id="lightbox-close" aria-label="Close image popup">&times;</button>
+    <img id="lightbox-img" alt="Expanded gallery image">
+  </div>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section contact">
+    <h2>Contact Me</h2>
+    <p>Let's connect and collaborate!</p>
+    <a href="mailto:chinniarchu16@gmail.com" class="btn">chinniarchu16@gmail.com</a>
+  </section>
+
+  <footer class="footer">
+    <p>© 2026 V.Archana. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
